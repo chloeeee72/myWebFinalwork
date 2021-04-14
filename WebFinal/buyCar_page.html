@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buyCar_page.css">
+    <script src="./buyCar.js" type="text/javascript"></script>
+    <title>购物车页面——buycarPage</title>
+</head>
+<body>
+    <div class="show">
+        <div class="showbg">
+            <div class="showbgimg"></div>
+        </div>
+        <div class="backImg">
+            <a href="./pageOne_home.html">
+                <img src="./WebFinalImg/log_back.png" class="back"></img>
+            </a>
+        </div>
+        <div class="itemBox">
+            <ul class="itemBox_ul">
+                <li class="itemBox_li_title">
+                    <span>全选：</span>
+                    <span><input type="checkbox" id="allChecked"></span>
+                </li>
+                <li class="itemBox_li">
+                    <span><input type="checkbox" class="item_checked"></span> 
+                    <span class="span_Img"><img src="./WebFinalImg/gameBanner16.jpg" alt="goods_1"></span>
+                    <p>订单号：123456790</p>
+                    <p>游戏名称：Detroit:Become Human</p>
+                    <p>商品数量：1</p>
+                    <p>单价：￥115</p>
+                    <p>总价：￥115</p>
+                </li>
+                <li class="itemBox_li">
+                    <input type="checkbox" class="item_checked">
+                    <span class="span_Img"><img src="./WebFinalImg/gameBanner14.png" alt="goods_2"></span>
+                    <span class="span_Img"><img src="./WebFinalImg/gameBanner13.png" alt="goods_2"></span>
+                    <p>订单号：123456790</p>
+                    <p>游戏名称：The Witcher3：Wild Hunt</p>
+                    <p>商品数量：2</p>
+                    <p>单价：￥127</p>
+                    <p>总价：￥254</p>
+                </li>
+                <li class="itemBox_li">
+                    <input type="checkbox" class="item_checked">
+                    <span class="span_Img"><img src="./WebFinalImg/gameBanner18.jpg" alt="goods_3"></span>
+                    <p>订单号：123456790</p>
+                    <p>游戏名称：Final Fantasy Vii Remake</p>
+                    <p>商品数量：1</p>
+                    <p>单价：￥428</p>
+                    <p>总价：￥428</p>
+                </li>
+                <li class="itemBox_li">
+                    <input type="checkbox" class="item_checked">
+                    <span class="span_Img"><img src="./WebFinalImg/gameBanner17.jpg" alt="goods_4"></span>
+                    <p>订单号：123456790</p>
+                    <p>游戏名称：Devil May Cry 5</p>
+                    <p>商品数量：1</p>
+                    <p>单价：￥99</p>
+                    <p>总价：￥99</p>
+                </li>
+            </ul>
+        </div>
+        <div class="confirmation">
+            <div class="showCon">
+                <div class="count">
+                    <!-- <p>订单目录：</p> -->
+                    <table class="countTab">
+                        <tr>
+                            <th id="countTabTitle" colspan="3">订单目录：</th>
+                        </tr>
+                        <tr>
+                            <th>物品名称</th>
+                            <th>物品价格</th>
+                            <th>物品数量</th>
+                        </tr>
+                        <tr>
+                            <td>Detroit:Become Human</td>
+                            <td>￥115</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>The Witcher3：Wild Hunt</td>
+                            <td>￥127</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Final Fantasy Vii Remake</td>
+                            <td>￥428</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Devil May Cry 5</td>
+                            <td>￥99</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            
+                        </tr>
+                        <tr>
+                            <th>订单总数：</th>
+                            <td colspan="2">4</td>
+                        </tr>
+                        <tr>
+                            <th>订单总价：</th>
+                            <td colspan="2">￥896</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="provision">
+                    <p id="provision_p">请阅读后点击确认框同意下方条款：</p>
+                    <input type="checkbox" id="provision_service"><a href="#">服务条款</a>
+                    <input type="checkbox" id="provision_pay"><a href="#">支付条款</a>
+                </div>
+                <div class="btn">
+                    <button id="clearBtn" onclick="">清空购物车</button>
+                    <button id="deleteBtn">删除</button>
+                    <button id="buyBtn">支付</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

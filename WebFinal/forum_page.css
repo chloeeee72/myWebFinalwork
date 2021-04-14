@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 1300px;
+    margin: auto;
+    font-size:16px;
+    background-color:  rgba(180, 223, 216, 0.8);
+    font-family: helvetica;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input{
+    outline: none;
+}
+/* 大Box */
+.forumBox{
+    width: 80%;
+    height: 96%;
+    margin: auto;
+    position: relative;
+    top: 2%;
+    box-shadow: -8px -16px 12px rgba(255, 255, 255, 0.8),
+                8px 8px 14px rgba(90, 90, 90, 0.75);
+    border-radius: 10px;
+}
+/* 返回按钮 */
+.back img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: -2px -2px 4px rgba(255, 255, 255, 0.75),
+                2px 2px 4px rgba(71, 71, 71, 0.75);
+}
+.back img:hover{
+    box-shadow: 0px 0px 0px rgba(0,0,0,1),
+                0px 0px 0px rgba(255,255,255,1);
+    inset: -2px -2px 3px rgba(255, 255, 255, 0.75);
+    inset: 2px 2px 2px rgba(100, 100, 100, 0.5);
+    transition: box-shadow 0.1s ease-out;
+}
+/* 头部BOx */
+.header{
+    width: 90%;
+    height: 8%;
+    margin-left: 5%;
+    position: relative;
+    top: 3%;
+    background: linear-gradient(320deg,
+            rgba(226, 250, 246, 0.8) 0%,
+            rgba(180, 223, 216, 0.8) 100%);
+    border-radius: 15px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 1),
+                4px 4px 8px rgba(90, 90, 90, 1);
+}
+/* logoBox */
+.logo{
+    width: 60%;
+    height: 100%;
+}
+/* logoImg */
+#LOGOimg{
+    width: 82%;
+    height: 100%;
+    margin-left: 10%;
+    float: left;
+}
+/* 文字 */
+#headerText{
+    width: 40%;
+    height: 100%;
+    color: rgb(66, 66, 66);
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 15px;
+    text-align: center;
+    line-height: 95px;
+    position: relative;
+    top: -100%;
+    left: 58%;
+    text-shadow: -2px -2px 4px rgb(95, 95, 95),
+                2px 2px 4px rgba(255, 255, 255, 1);
+}
+.title,.hot,.Con,.link,.footer{
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 15px;
+    float: left;
+    position: relative;
+    top: 3%;
+}
+
+/* 版规部分 */
+.title{
+    width: 94%;
+    height: 12%;
+    box-shadow: inset -3px -6px 6px rgba(255, 255, 255, 0.8),
+                inset 3px 3px 6px rgba(90, 90, 90, 0.75);
+    text-align: center;
+}
+#title_a{
+    position: relative;
+    top: 13px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.title a:hover{
+    color: rgba(255, 0, 0, 0.8);
+}
+#title_font{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+#title_con{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* 热门帖子推荐 */
+/* box */
+.hot{
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    box-shadow: -4px -4px 6px rgba(255, 255, 255, 1),
+                4px 4px 6px rgb(104, 104, 104);
+}
+.hot,.footer{
+    position: relative;
+    top: -30%;
+}
+/* 推荐 */
+.hotTopics{
+    width: 95%;
+    height: 80%;
+    margin-left: 2.5%;
+    border-radius: 15px;
+}
+.hotTopics p{
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+}
+.hotTopics a:hover{
+    color: rgba(255, 0, 0, 0.8);
+    text-decoration: underline;
+}
+
+/* 分区 */
+.Con{
+    width: 50%;
+    height: 42%;
+    box-shadow: inset -3px -6px 6px rgba(255, 255, 255, 0.8),
+                inset 3px 3px 6px rgba(90, 90, 90, 0.75);
+    /* background-image: url(./WebFinalImg/header3.jpg); */
+    /* background-size: 130% 100%; */
+    /* background-repeat: no-repeat; */
+}
+#con_p{
+    width: 70%;
+    height: 12%;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 63px;
+    margin-top: 3%;
+    border-radius: 10px;
+    margin-left: 15%;
+    box-shadow: -4px -4px 6px rgba(255, 255, 255, 1),
+                4px 4px 6px rgb(100, 100, 100);
+}
+#con_inp1{
+    width: 23%;
+    height:72%;
+}
+#con_inp2,#con_inp3,#con_inp4,#con_inp5,#con_inp6,#con_inp7{
+    width: 25%;
+    height: 20%;
+}
+#con_inp1,#con_inp2,#con_inp3,#con_inp4,#con_inp5,#con_inp6,#con_inp7{
+    float: left;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    /* top: -10px; */
+    left: 10px;
+    margin-top: 5%;
+    margin-left: 6%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -4px -4px 6px rgba(255, 255, 255, 1),
+                4px 4px 6px rgb(100, 100, 100);
+    background: linear-gradient(320deg,
+            rgba(226, 250, 246, 0.8) 0%,
+            rgba(180, 223, 216, 0.5) 60%,
+            rgba(180, 223, 216, 0.6) 100%);
+}
+#con_inp1:hover,#con_inp2:hover,#con_inp3:hover,#con_inp4:hover,#con_inp5:hover,#con_inp6:hover,#con_inp7:hover{
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 1),
+                -1px -1px 4px rgb(100, 100, 100);
+}
+
+/* 链接 */
+.link{
+    width: 40%;
+    height: 120px;
+    box-shadow: -4px -4px 6px rgba(255, 255, 255, 1),
+                4px 4px 6px rgb(104, 104, 104);
+}
+.link_a,.link_b,.link_c,.link_d,.link_e{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#link_a_p,#link_b_p,#link_c_p,#link_d_p,#link_e_p{
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 20%;
+    float: left;
+    position: relative;
+    left: 7px;
+}
+#link_a_img,#link_b_img,#link_c_img,#link_d_img,#link_e_img{
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+    /* margin-left: 5%; */
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    left: 20px;
+}
+.link_a:hover,.link_b:hover,.link_c:hover,.link_d:hover,.link_e:hover{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 1),
+                0px 0px 0px rgb(255, 255, 255),
+            inset 5px 5px 8px rgb(120, 120, 120),
+            inset -5px -5px 8px rgba(255, 255, 255, 1);
+    border-radius: 15px;
+}
+/* footer */
+.footer{
+    width: 94%;
+    height: 13%;
+    box-shadow: inset -3px -6px 6px rgba(255, 255, 255, 0.8),
+                inset 3px 3px 6px rgba(90, 90, 90, 0.75);
+}
+.footer p,.footer span{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.footerTitle{
+    /* height: 25px; */
+    color: black;
+    font-size: 23px;
+    font-weight: 800;
+}
+.footer a::after{
+    content: "  |";
+}
+.footerWarning{
+    font-weight: 600;
+}
+.footer a:hover{
+    color: rgba(255, 0, 0, 0.8);
+}

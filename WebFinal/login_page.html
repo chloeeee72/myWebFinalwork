@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login_page.css">
+    <script src="./login_page.js" type="text/javascript"></script>
+    <title>登陆页面——loginPage</title>
+</head>
+<body>
+    <div class="bg">
+        <!-- 背景图片 -->
+        <div class="bgimg"></div>
+        <!-- 返回按钮（图片） -->
+        <div class="back">
+            <a href="./pageOne_home.html">
+                <img src="./WebFinalImg/log_back.png" alt="backBtn">
+            </a>
+        </div>
+        <!-- page字体 -->
+        <h3 class="pt">Login Page</h3>
+        <!-- 表单 -->
+        <div class="box">
+            <p>
+                <span class="title">用户名：</span>
+                <input type="text" placeholder="请输入手机号或用户名" id="username">
+                <br>
+                <span id="usernameError"></span>
+            </p>
+            <p>
+                <span class="title">密码：</span>
+                <input type="password" placeholder="请输入密码" id="password">
+                <br>
+                <span id="passwordError"></span>
+            </p>
+            <p>
+                <span class="title">验证码：</span>
+                <input type="text"placeholder="请输入验证码" id="y">
+                <span id="checkCode">abcd</span>
+                <br>
+                <span id="ySpan"></span>
+            </p>
+            <br>
+            <!-- 按钮 -->
+            <div class="btn">
+                <input type="reset" value="重置" id="reset">
+                <input type="button" value="注册" id="submitBtn">
+                <input type="submit" value="登录" id="loginBtn">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
