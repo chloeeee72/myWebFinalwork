@@ -6,7 +6,7 @@
 ## main page
 ![Image of Yaktocat](https://github.com/chloeeee72/myWebFinalwork/blob/main/WebFinalScreenShot/mainPage.png)
 ## login page
-![Image of Yaktocat](https://github.com/chloeeee72/myWebFinalwork/blob/main/WebFinalScreenShot/loginlPage.png)
+![Image of Yaktocat](https://github.com/chloeeee72/myWebFinalwork/blob/main/WebFinalScreenShot/loginPage.jpg)
 ## detail page
 ![Image of Yaktocat](https://github.com/chloeeee72/myWebFinalwork/blob/main/WebFinalScreenShot/detailPage.png)
 
